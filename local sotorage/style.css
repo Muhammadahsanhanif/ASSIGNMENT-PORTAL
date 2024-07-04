@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Dancing';
+    src: url(./fonts/DancingScript-VariableFont_wght.ttf);
+  }
+  
+  body {
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(-45deg, #dc52ee, #3cdce7, #000000a4, #5223d575);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      height: 100vh;
+    font-family: 'Dancing';
+  
+  }
+  
+  .background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  
+  .background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .shape:first-child {
+    background: linear-gradient(#1845ad,
+        #23a2f6);
+    left: -80px;
+    top: -80px;
+  }
+  
+  .shape:last-child {
+    background: linear-gradient(to right,
+        #ff512f,
+        #f09819);
+    right: -30px;
+    bottom: -80px;
+  }
+  
+  .form {
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.13);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+
+  }
+
+  .form * {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+  }
+  
+  .form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  ::placeholder {
+    color: #e5e5e5;
+  }
+  
+  .login {
+    margin-top: 50px;
+    width: 100%;
+    background-color: blue;
+    color: wheat;
+    padding: 12px 0;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0px 3px 20px white  ;
+    animation: pulse 3s infinite; 
+    border: 3px solid transparent;
+    background-color: blue;
+
+
+  }
+  
+    @keyframes pulse {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      box-shadow: 0px 2px 50px  goldenrod; 
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  .logout {
+    margin-top: -15px;
+    width: 100%;
+    background-color: rgb(255, 115, 0);
+    color: black;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 3px 20px white  ;
+    animation: pulse 3s infinite; 
+    border: 3px solid transparent;
+    background-color: #fff;
+
+  }
+  
+  @keyframes pulse {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      box-shadow: 0px 2px 50px  goldenrod; 
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  .social {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  .social div {
+    background: red;
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(255, 255, 255, 0.27);
+    color: #eaf0fb;
+    text-align: center;
+  }
+  
+  .social div:hover {
+    background-color: rgba(255, 255, 255, 0.47);
+  }
+  
+  .social .fb {
+    margin-left: 25px;
+  }
+  
+  .social i {
+    margin-right: 4px;
+  }
+  
+  #password::placeholder{
+    color: rgb(22, 18, 18);
+  }
+  #email::placeholder{
+    color: rgb(34, 34, 34);
+  }
+  #note::placeholder{
+    color: black;
+  }
+  
+  
+  
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }

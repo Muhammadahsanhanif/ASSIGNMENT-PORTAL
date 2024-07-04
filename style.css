@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family:lemon ;
+    src: url(./Lemon-Regular.ttf);
+}
+
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(./dark-background-abstract-background-network-3d-background-6016x3384-8324.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center ;
+    /* position:fixed; */
+}
+.one{
+    font-family: lemon;
+
+}
+
+
+.card{
+    margin-top: 90px;
+    margin-left: 30px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    box-shadow: 0px 3px 20px white  ;
+    animation: pulse 3s infinite; 
+    border: 3px solid transparent;
+    /* font-family: lemon; */
+    cursor: pointer;
+    font-family: lemon;
+   
+
+}
+
+@keyframes pulse {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      box-shadow: 0px 2px 50px  purple; 
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.second_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pic{
+  margin-top: -5px;
+}
+
+.icon{
+ font-size: 4em;
+
+}
+.icon-s{
+  font-size: 4em;
+}
+  
+

@@ -1,0 +1,92 @@
+
+
+ body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #27242485;
+    background-image: url(./image/HD-wallpaper-math-blackboard-texture-background-with-geometric-shapes-math-background-math-texture-geometric-lines-shapes-texture-mathematics-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-y: center;
+    background-position-x: center; */
+
+
+}
+#cal-body{
+    background-color: rgb(20, 18, 18);
+    width: 380px;
+    height: 500px;
+    border: 1px solid #cccccc;
+    box-shadow: 20px 20px 30px 0px rgba(12,0,124,);
+    border-radius: 20px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    border: 2px solid black;
+}
+
+#screen{
+    background-color:rgba(255, 255, 255, 0.712);
+    color: black;
+    font-size: 2em;
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    margin-top: 15px;
+    padding-right: 10px;
+    text-align: right;
+    overflow-x: scroll;
+    border: 3px solid white;
+}
+#screen::-webkit-scrollbar{
+    background-color: transparent;
+    height: 5px;
+}
+#screen::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 30px;
+}
+#all-buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+    margin-top: 19px;
+}
+
+.del{
+    color: white;
+    background-color: rgba(44, 250, 216, 0.411);
+}
+.del:hover{
+    background-color: rgb(0, 255, 128);
+}
+.operator{
+    color: rgb(0, 255, 98);
+}
+.operator:hover{
+    background-color: aquamarine;
+    color: #000;
+}
+.equal-sign{
+    grid-column: 1 / span 3;
+    background-color: rgba(53, 152, 245, 0.178);
+}
+.equal-sign:hover{
+    background-color: rgba(0, 132, 255, 0.37);
+}
+.zero{
+    grid-column: 1 / span 2;
+}
+button{
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.192);
+    border-radius: 3px;
+    border: none;
+    font-size: 1.8em;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(255, 255,255,0.479);
+}

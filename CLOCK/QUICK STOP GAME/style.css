@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin-top: -20px;
+}
+.container{
+
+    margin-top: 100px;
+    border: 1px solid black;
+    height: 500px;
+    width:  600px;
+    box-shadow: 0px 3px 20px white  ;
+    animation: pulse 3s infinite; 
+    border: 3px solid transparent;
+
+}
+
+
+@keyframes pulse {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      box-shadow: 0px 2px 50px  goldenrod; 
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+
+.heading{
+    font-size: 4em;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.one{
+    font-size: 4em;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input{
+    border-radius: 50px;
+
+    font-size: 1.4em;
+}
+
+.start{
+    font-size: 2em;
+
+    border-radius: 50px;
+    box-shadow: 0px 3px 20px white  ;
+    animation: pulse 3s infinite; 
+    border: 3px solid transparent;
+}
+
+@keyframes pulse {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      box-shadow: 0px 2px 50px  purple; 
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+
+.end{
+    font-size: 2em;
+    border-radius: 50px;
+    box-shadow: 0px 3px 20px white  ;
+    animation: pulse 3s infinite; 
+    border: 3px solid transparent;
+}
+
+
+@keyframes pulse {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      box-shadow: 0px 2px 50px  purple; 
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background: linear-gradient(to top, black, gray);
+}

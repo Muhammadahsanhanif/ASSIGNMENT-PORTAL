@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./a-frozen-block-of-ice-with-a-stopwatch-frozen-inside-on-a-metal-surface-BMK3NJ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center ;
+}
+.heading{
+    text-align: center;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #564883);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.container_fluid{
+ 
+    height: 200px;
+    width: 300px;
+    /* border: 2px solid black; */
+
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 3px 20px white  ;
+    animation: pulse 3s infinite; 
+    /* border: 3px solid transparent; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,103,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+@keyframes pulse {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      box-shadow: 0px 2px 50px  purple; 
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+.main_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 1.3em;
+    
+  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+    margin-top: 10px;
+    gap: 10px;
+
+}
